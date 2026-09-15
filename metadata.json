@@ -1,0 +1,6 @@
+{
+  "name": "WFinanças",
+  "description": "Aplicativo completo de gestão financeira pessoal com controle de cartões de crédito, parcelamentos, faturas, lançamentos e relatórios detalhados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

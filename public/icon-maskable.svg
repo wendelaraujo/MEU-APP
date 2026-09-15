@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradMaskable" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1c30" />
+      <stop offset="50%" stop-color="#0f2b48" />
+      <stop offset="100%" stop-color="#061220" />
+    </linearGradient>
+    <linearGradient id="emeraldGradMaskable" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="blueGradMaskable" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full bleed square background for Android adaptive masking (circle/squircle/teardrop) -->
+  <rect width="512" height="512" fill="url(#bgGradMaskable)" />
+
+  <!-- Inner group scaled to 78% centered to respect Android 15% safe-zone margin -->
+  <g transform="translate(56, 56) scale(0.78)">
+    <!-- Stylized card outline -->
+    <rect x="76" y="96" width="360" height="230" rx="24" fill="none" stroke="#334155" stroke-width="3" opacity="0.3" />
+    <circle cx="120" cy="140" r="16" fill="#3b82f6" opacity="0.4" />
+    <circle cx="145" cy="140" r="16" fill="#10b981" opacity="0.4" />
+
+    <!-- Stylized W -->
+    <path d="M 120 180 L 175 340 L 225 340 L 195 200 Z" fill="url(#blueGradMaskable)" opacity="0.9" />
+    <path d="M 195 200 L 256 320 L 317 200 L 285 200 L 256 265 L 225 200 Z" fill="#ffffff" />
+    <path d="M 285 200 L 317 200 L 370 340 L 415 220 L 400 170 L 345 285 L 317 200 Z" fill="url(#emeraldGradMaskable)" />
+
+    <!-- Financial Growth Line -->
+    <path d="M 370 150 L 430 150 L 430 210 L 405 185 L 340 250 L 305 215 L 240 280 L 210 250 L 290 170 L 325 205 L 385 145 Z" fill="#34d399" />
+
+    <!-- Coin -->
+    <circle cx="410" cy="140" r="22" fill="#10b981" />
+    <circle cx="410" cy="140" r="14" fill="#6ee7b7" />
+    <circle cx="410" cy="140" r="6" fill="#ffffff" />
+
+    <!-- Typography -->
+    <text x="256" y="420" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="46" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">W-FINANÇAS</text>
+    <text x="256" y="450" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#34d399" text-anchor="middle" letter-spacing="6">GESTÃO PESSOAL</text>
+  </g>
+</svg>
